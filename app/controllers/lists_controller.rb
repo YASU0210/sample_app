@@ -14,13 +14,14 @@ class ListsController < ApplicationController
   end
 
   def index
-    @list = List.allc
-  end
+    @lists = List.all
 
   def show
   end
 
   def edit
+    
+  end
   end
   
   private
